@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/prac.js"></script>
+</head>
+<body>
+    <div id="Calculara">
+        <p>
+            <input type="number" name="Lado1"  id="Lado1" placeholder="Caoptura el valor 1" onblur="captura1()" value="0">
+            <input type="number" name="Lado2"  id="Lado2" placeholder="Caoptura el valor 2" onblur="captura2() " value="0">
+            <input type="number" name="Lado3"  id="Lado3" placeholder="Caoptura el valor 3" onblur="captura3() " value="0">
+        </p>
+        <p>
+            <button id="P" onclick="Semi(),Semiperimetro()">perimetro</button>  
+            <button id="A" onclick="Area(),Areas()">Área</button>
+            <button id="T" onclick="Calcular()">Tipo</button>
+        </p>
+        <p id="Lista">
+        </p>
+    </div>
+</body>
+</html>
